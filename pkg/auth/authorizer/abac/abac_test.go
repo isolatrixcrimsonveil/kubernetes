@@ -72,7 +72,7 @@ func TestAuthorizeV0(t *testing.T) {
 {"user":"bob",       "readonly": true,                        "namespace": "projectCaribou"}
 `)
 	if err != nil {
-		t.Fatalf("unable to read policy file: %v", err)
+		t.Fatalf("unable to read file: %v", err)
 	}
 
 	authenticatedGroup := []string{user.AllAuthenticated}
