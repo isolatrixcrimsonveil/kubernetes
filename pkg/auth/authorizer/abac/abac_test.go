@@ -34,7 +34,7 @@ import (
 func TestEmptyFile(t *testing.T) {
 	_, err := newWithContents(t, "")
 	if err != nil {
-		t.Errorf("unable to read policy file: %v", err)
+		t.Errorf("unabl read policy file: %v", err)
 	}
 }
 
